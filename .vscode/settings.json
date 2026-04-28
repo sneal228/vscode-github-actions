@@ -1,7 +1,13 @@
 {
   "github-actions.workflows.pinned.workflows": [
+    ".github/workflows/build.yml"
+  ],
   "editor.formatOnSave": true,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "chat.editing.autoAcceptDelay": 10,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "GitHub.copilot-chat",
+  "editor.wordWrap": "on"
 }
